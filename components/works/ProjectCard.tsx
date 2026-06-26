@@ -11,7 +11,7 @@ export function ProjectCard({ project, onSelect }: ProjectCardProps) {
     <button
       type="button"
       onClick={() => onSelect(project)}
-      className="group w-full overflow-hidden rounded-2xl text-left transition-shadow hover:shadow-lg"
+      className="group w-full cursor-pointer overflow-hidden rounded-2xl text-left transition-shadow hover:shadow-lg"
       style={{ backgroundColor: project.bgColor }}
     >
       <div className="flex aspect-[4/3] items-center justify-center p-6">
