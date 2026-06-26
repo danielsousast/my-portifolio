@@ -1,0 +1,191 @@
+{
+  "profile": {
+    "name": "Monalisa Ashley",
+    "title": "Ui/Ux Designer",
+    "image": "/images/profile.svg",
+    "cvUrl": "/cv/monalisa-ashley-cv.pdf",
+    "socials": [
+      { "platform": "facebook", "url": "https://facebook.com" },
+      { "platform": "twitter", "url": "https://twitter.com" },
+      { "platform": "dribbble", "url": "https://dribbble.com" },
+      { "platform": "linkedin", "url": "https://linkedin.com" }
+    ],
+    "contactDetails": [
+      { "label": "Phone", "value": "+123 456 7890", "icon": "phone" },
+      { "label": "Location", "value": "Hong kong china", "icon": "location" },
+      { "label": "Email", "value": "example@mail.com", "icon": "email" },
+      { "label": "Birthday", "value": "May 27, 1990", "icon": "birthday" }
+    ]
+  },
+  "navigation": [
+    { "label": "Home", "href": "/", "icon": "home" },
+    { "label": "Resume", "href": "/resume", "icon": "resume" },
+    { "label": "Works", "href": "/works", "icon": "works" },
+    { "label": "Blogs", "href": "/blogs", "icon": "blogs" },
+    { "label": "Contact", "href": "/contact", "icon": "contact" }
+  ],
+  "aboutMe": [
+    "I'm a UI/UX Designer based in Hong Kong, China. I strive to build immersive and beautiful web applications through carefully crafted code and user-centric design.",
+    "My goal is to always build products that provide pixel-perfect, performant experiences that delight users."
+  ],
+  "services": [
+    {
+      "title": "Ui/Ux Design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
+      "icon": "design",
+      "bgColor": "#EFF6FF",
+      "iconColor": "#1E40AF"
+    },
+    {
+      "title": "App Development",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
+      "icon": "development",
+      "bgColor": "#F1F5F9",
+      "iconColor": "#475569"
+    },
+    {
+      "title": "Photography",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
+      "icon": "photography",
+      "bgColor": "#ECFEFF",
+      "iconColor": "#0E7490"
+    },
+    {
+      "title": "Mobile Design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
+      "icon": "mobile",
+      "bgColor": "#F0FDF4",
+      "iconColor": "#166534"
+    }
+  ],
+  "education": [
+    {
+      "period": "2021-2023",
+      "title": "Ph.D in Horriblensess",
+      "subtitle": "ABC University, Los Angeles, CA"
+    },
+    {
+      "period": "2019-2021",
+      "title": "Computer Science",
+      "subtitle": "Imperialize Technical Institute"
+    },
+    {
+      "period": "2015-2017",
+      "title": "Graphic Designer",
+      "subtitle": "New York Academy of Art"
+    }
+  ],
+  "experience": [
+    {
+      "period": "2017-2021",
+      "title": "Computer Science",
+      "subtitle": "Imperialize Technical Institute"
+    },
+    {
+      "period": "2015-2017",
+      "title": "Graphic Designer",
+      "subtitle": "New York Academy of Art"
+    },
+    {
+      "period": "2013-2015",
+      "title": "UI/UX Designer",
+      "subtitle": "Creative Studio Inc."
+    }
+  ],
+  "projectCategories": ["All", "Video", "Web Design", "Logo", "Graphic Design"],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Chul urina",
+      "category": "UI/UX",
+      "client": "Envato",
+      "type": "Website",
+      "languages": ["Photoshop", "Figma"],
+      "previewUrl": "https://www.envato.com",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      "thumbnail": "/images/projects/astronaut.svg",
+      "featuredImage": "/images/projects/astronaut.svg",
+      "bgColor": "#F1F5F9"
+    },
+    {
+      "id": "2",
+      "title": "Aura Dione",
+      "category": "Web Design",
+      "client": "Creative Agency",
+      "type": "Website",
+      "languages": ["Figma", "HTML", "CSS"],
+      "previewUrl": "https://example.com",
+      "description": "A modern web design project focused on clean aesthetics and intuitive user experience. Built with attention to detail and responsive design principles.",
+      "thumbnail": "/images/projects/watermelon.svg",
+      "featuredImage": "/images/projects/watermelon.svg",
+      "bgColor": "#E2E8F0"
+    },
+    {
+      "id": "3",
+      "title": "UI/UX Project",
+      "category": "Graphic Design",
+      "client": "Envato",
+      "type": "Website",
+      "languages": ["Photoshop", "Figma"],
+      "previewUrl": "https://www.envato.com",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "thumbnail": "/images/projects/elephant.svg",
+      "featuredImage": "/images/projects/elephant.svg",
+      "bgColor": "#EFF6FF"
+    },
+    {
+      "id": "4",
+      "title": "Brand Identity",
+      "category": "Logo",
+      "client": "Startup Co",
+      "type": "Branding",
+      "languages": ["Illustrator", "Photoshop"],
+      "previewUrl": "https://example.com",
+      "description": "Complete brand identity design including logo, color palette, and brand guidelines for a tech startup.",
+      "thumbnail": "/images/projects/astronaut.svg",
+      "featuredImage": "/images/projects/astronaut.svg",
+      "bgColor": "#ECFEFF"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "title": "The Future of UI Design in 2026",
+      "excerpt": "Exploring emerging trends in user interface design and how they shape digital experiences.",
+      "date": "June 15, 2026",
+      "category": "Design",
+      "image": "/images/projects/astronaut.svg"
+    },
+    {
+      "id": "2",
+      "title": "Building Accessible Web Applications",
+      "excerpt": "A practical guide to making your web apps inclusive for all users.",
+      "date": "May 28, 2026",
+      "category": "Development",
+      "image": "/images/projects/watermelon.svg"
+    },
+    {
+      "id": "3",
+      "title": "Color Theory for Designers",
+      "excerpt": "Understanding how color choices impact user perception and engagement.",
+      "date": "April 10, 2026",
+      "category": "Design",
+      "image": "/images/projects/elephant.svg"
+    }
+  ],
+  "contact": {
+    "intro": "I'm always open to discussing product design work or partnerships.",
+    "infoCards": [
+      {
+        "title": "Phone",
+        "values": ["+452 666 386", "+654 764 878"],
+        "theme": "pink"
+      },
+      {
+        "title": "Email",
+        "values": ["ibthemes@gmail.com", "xyz@abc.com"],
+        "theme": "blue"
+      }
+    ]
+  }
+}
