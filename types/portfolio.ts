@@ -23,7 +23,7 @@ export interface Profile {
 export interface NavItem {
   label: string;
   href: string;
-  icon: "home" | "resume" | "works" | "blogs" | "contact";
+  icon: "home" | "resume" | "works" | "contact";
 }
 
 export interface Service {
