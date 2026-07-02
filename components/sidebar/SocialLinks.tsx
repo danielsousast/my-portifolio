@@ -10,6 +10,8 @@ export function SocialLinks({ socials }: SocialLinksProps) {
     <div className="mt-4 flex gap-2">
       {socials.map((social) => {
         const Icon = socialIcons[social.platform];
+        if (!Icon) return null;
+
         return (
           <a
             key={social.platform}

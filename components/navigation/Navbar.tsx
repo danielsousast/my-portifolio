@@ -15,7 +15,7 @@ export function Navbar({ items }: NavbarProps) {
 
   return (
     <nav>
-      <ul className="flex items-center gap-1 rounded-2xl bg-white px-2 py-2 shadow-lg md:gap-2 md:px-3">
+      <ul className="flex items-center gap-1 md:gap-2">
         {items.map((item) => {
           const Icon = navIcons[item.icon];
           const isActive =

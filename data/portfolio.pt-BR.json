@@ -5,9 +5,7 @@
     "image": "/images/avatar.jpeg",
     "cvUrl": "/cv/monalisa-ashley-cv.pdf",
     "socials": [
-      { "platform": "facebook", "url": "https://facebook.com" },
-      { "platform": "twitter", "url": "https://twitter.com" },
-      { "platform": "dribbble", "url": "https://dribbble.com" },
+      { "platform": "github", "url": "https://github.com/danielsousast" },
       { "platform": "linkedin", "url": "https://www.linkedin.com/in/danielsousast/" }
     ],
     "contactDetails": [
@@ -21,7 +19,6 @@
     { "label": "Início", "href": "/", "icon": "home" },
     { "label": "Currículo", "href": "/resume", "icon": "resume" },
     { "label": "Trabalhos", "href": "/works", "icon": "works" },
-    { "label": "Blog", "href": "/blogs", "icon": "blogs" },
     { "label": "Contato", "href": "/contact", "icon": "contact" }
   ],
   "aboutMe": [

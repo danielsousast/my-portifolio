@@ -5,54 +5,38 @@
     "image": "/images/avatar.jpeg",
     "cvUrl": "/cv/monalisa-ashley-cv.pdf",
     "socials": [
-      { "platform": "facebook", "url": "https://facebook.com" },
-      { "platform": "twitter", "url": "https://twitter.com" },
-      { "platform": "dribbble", "url": "https://dribbble.com" },
+      { "platform": "github", "url": "https://github.com/danielsousast" },
       { "platform": "linkedin", "url": "https://www.linkedin.com/in/danielsousast/" }
     ],
     "contactDetails": [
-      { "label": "Phone", "value": "+123 456 7890", "icon": "phone" },
-      { "label": "Location", "value": "Hong kong china", "icon": "location" },
-      { "label": "Email", "value": "example@mail.com", "icon": "email" },
-      { "label": "Birthday", "value": "May 27, 1990", "icon": "birthday" }
+      { "label": "Phone", "value": "+55 62 99457-4457", "icon": "phone" },
+      { "label": "Location", "value": "GO, Brazil", "icon": "location" },
+      { "label": "Email", "value": "daniel.sousa.developer@gmail.com", "icon": "email" },
+      { "label": "Age", "value": "31", "icon": "birthday" }
     ]
   },
   "navigation": [
     { "label": "Home", "href": "/", "icon": "home" },
     { "label": "Resume", "href": "/resume", "icon": "resume" },
     { "label": "Works", "href": "/works", "icon": "works" },
-    { "label": "Blogs", "href": "/blogs", "icon": "blogs" },
     { "label": "Contact", "href": "/contact", "icon": "contact" }
   ],
   "aboutMe": [
-    "I'm a UI/UX Designer based in Hong Kong, China. I strive to build immersive and beautiful web applications through carefully crafted code and user-centric design.",
-    "My goal is to always build products that provide pixel-perfect, performant experiences that delight users."
+    "Senior Mobile Engineer with 6+ years of experience building scalable, high-performance mobile applications using React Native. I have contributed to products with over 1M downloads, delivering exceptional user experiences, robust security, and maintainable architectures at scale.",
+    "Passionate about leveraging AI and Agentic Engineering principles to accelerate software development, I actively integrate AI-powered tools, autonomous workflows, and intelligent automation into the engineering lifecycle to improve productivity, code quality, and delivery speed.",
+    "Experienced in leading mobile initiatives from concept to production, collaborating across product, design, and engineering teams to build reliable, user-centric applications that drive measurable business impact."
   ],
   "services": [
     {
-      "title": "Ui/Ux Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
-      "icon": "design",
-      "bgColor": "#EFF6FF",
-      "iconColor": "#1E40AF"
-    },
-    {
-      "title": "App Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
+      "title": "Web Development",
+      "description": "Building responsive and user-friendly web applications using modern technologies and frameworks.",
       "icon": "development",
       "bgColor": "#F1F5F9",
       "iconColor": "#475569"
     },
     {
-      "title": "Photography",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
-      "icon": "photography",
-      "bgColor": "#ECFEFF",
-      "iconColor": "#0E7490"
-    },
-    {
-      "title": "Mobile Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
+      "title": "Mobile Development",
+      "description": "Building high-performance mobile applications using React Native and other modern technologies.",
       "icon": "mobile",
       "bgColor": "#F0FDF4",
       "iconColor": "#166534"
@@ -60,117 +44,158 @@
   ],
   "education": [
     {
-      "period": "2021-2023",
-      "title": "Ph.D in Horriblensess",
-      "subtitle": "ABC University, Los Angeles, CA"
+      "period": "2017-2017",
+      "title": "MBA in Information Systems",
+      "subtitle": "ESAB"
     },
     {
-      "period": "2019-2021",
-      "title": "Computer Science",
-      "subtitle": "Imperialize Technical Institute"
+      "period": "2012-2016",
+      "title": "Bachelor of Information Systems",
+      "subtitle": "Universidade Federal de Goiás"
     },
     {
-      "period": "2015-2017",
-      "title": "Graphic Designer",
-      "subtitle": "New York Academy of Art"
+      "period": "2014-2014",
+      "title": "Computer Technician",
+      "subtitle": "Instituto Monitor"
     }
   ],
   "experience": [
     {
-      "period": "2017-2021",
-      "title": "Computer Science",
-      "subtitle": "Imperialize Technical Institute"
+      "period": "May 2025 - present",
+      "title": "Senior Mobile Engineer",
+      "subtitle": "Thoughtworks"
     },
     {
-      "period": "2015-2017",
-      "title": "Graphic Designer",
-      "subtitle": "New York Academy of Art"
+      "period": "May 2024 - May 2015",
+      "title": "Technical Lead Mobile",
+      "subtitle": "Servicefy"
     },
     {
-      "period": "2013-2015",
-      "title": "UI/UX Designer",
-      "subtitle": "Creative Studio Inc."
+      "period": "June 2024 - December 2024",
+      "title": "Senior Mobile Engineer",
+      "subtitle": "BRQ Digital Solutions"
+    },
+    {
+      "period": "May 2022 - October 2023",
+      "title": "Software Engineer",
+      "subtitle": "More Talent Tech"
+    },
+    {
+      "period": "April 2021 - April 2022",
+      "title": "Adjunct Professor",
+      "subtitle": "Universidade Federal de Goiás"
+    },
+    {
+      "period": "January 2020 - April 2021",
+      "title": "Mobile Developer",
+      "subtitle": "Superlógica Tecnologias"
     }
   ],
-  "projectCategories": ["All", "Video", "Web Design", "Logo", "Graphic Design"],
+  "projectCategories": ["All", "Mobile", "Web"],
   "projects": [
     {
       "id": "1",
-      "title": "Chul urina",
-      "category": "UI/UX",
-      "client": "Envato",
-      "type": "Website",
-      "languages": ["Photoshop", "Figma"],
-      "previewUrl": "https://www.envato.com",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      "thumbnail": "/images/projects/astronaut.svg",
-      "featuredImage": "/images/projects/astronaut.svg",
+      "title": "LatamPass App",
+      "category": "Mobile",
+      "client": "Latam Airlines",
+      "type": "Mobile",
+      "languages": ["React Native", "TypeScript", "JavaScript"],
+      "previewUrl": "https://latampass.latam.com/pt_br/baixe-o-app",
+      "description": "The LATAM Pass application is the LATAM loyalty program tool to manage your miles account directly from your cell phone",
+      "thumbnail": "/images/projects/latampass.png",
+      "featuredImage": "/images/projects/latampass.png",
       "bgColor": "#F1F5F9"
     },
     {
       "id": "2",
-      "title": "Aura Dione",
-      "category": "Web Design",
-      "client": "Creative Agency",
-      "type": "Website",
-      "languages": ["Figma", "HTML", "CSS"],
-      "previewUrl": "https://example.com",
+      "title": "Servicefy App",
+      "category": "Web",
+      "client": "Servicefy",
+      "type": "Mobile",
+      "languages": ["React Native", "TypeScript", "JavaScript"],
+      "previewUrl": "https://play.google.com/store/apps/details?id=com.viniengelage.servicefy",
       "description": "A modern web design project focused on clean aesthetics and intuitive user experience. Built with attention to detail and responsive design principles.",
-      "thumbnail": "/images/projects/watermelon.svg",
-      "featuredImage": "/images/projects/watermelon.svg",
+      "thumbnail": "/images/projects/servicefy.webp",
+      "featuredImage": "/images/projects/servicefy.webp",
       "bgColor": "#E2E8F0"
     },
     {
       "id": "3",
-      "title": "UI/UX Project",
-      "category": "Graphic Design",
-      "client": "Envato",
-      "type": "Website",
-      "languages": ["Photoshop", "Figma"],
-      "previewUrl": "https://www.envato.com",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "thumbnail": "/images/projects/elephant.svg",
-      "featuredImage": "/images/projects/elephant.svg",
+      "title": "Livelo App",
+      "category": "Mobile",
+      "client": "Livelo",
+      "type": "Mobile",
+      "languages": ["React Native", "TypeScript", "JavaScript"],
+      "previewUrl": "https://play.google.com/store/apps/details?id=br.com.livelo.app",
+      "description": "Livelo is a loyalty program that allows you to earn and redeem points for rewards.",
+      "thumbnail": "/images/projects/livelo.png",
+      "featuredImage": "/images/projects/livelo.png",
       "bgColor": "#EFF6FF"
     },
     {
       "id": "4",
-      "title": "Brand Identity",
+      "title": "Lojas Marisa App",
       "category": "Logo",
-      "client": "Startup Co",
-      "type": "Branding",
-      "languages": ["Illustrator", "Photoshop"],
-      "previewUrl": "https://example.com",
-      "description": "Complete brand identity design including logo, color palette, and brand guidelines for a tech startup.",
-      "thumbnail": "/images/projects/astronaut.svg",
-      "featuredImage": "/images/projects/astronaut.svg",
+      "client": "Lojas Marisa",
+      "type": "Mobile",
+      "languages": ["React Native", "TypeScript", "JavaScript"],
+      "previewUrl": "https://play.google.com/store/apps/details?id=br.com.marisa.android",
+      "description": "Lojas Marisa is a retail chain that allows you to shop for your favorite products.",
+      "thumbnail": "/images/projects/marisa.png",
+      "featuredImage": "/images/projects/marisa.png",
       "bgColor": "#ECFEFF"
-    }
-  ],
-  "blogs": [
-    {
-      "id": "1",
-      "title": "The Future of UI Design in 2026",
-      "excerpt": "Exploring emerging trends in user interface design and how they shape digital experiences.",
-      "date": "June 15, 2026",
-      "category": "Design",
-      "image": "/images/projects/astronaut.svg"
     },
     {
-      "id": "2",
-      "title": "Building Accessible Web Applications",
-      "excerpt": "A practical guide to making your web apps inclusive for all users.",
-      "date": "May 28, 2026",
-      "category": "Development",
-      "image": "/images/projects/watermelon.svg"
+      "id": "5",
+      "title": "Infinitoon App",
+      "category": "Logo",
+      "client": "Infinitoon",
+      "type": "Mobile",
+      "languages": ["React Native", "TypeScript", "JavaScript"],
+      "previewUrl": "https://play.google.com/store/apps/details?id=com.infinitoon.app",
+      "description": "Infinitoon is a mobile application that allows you to manage your pet's health and wellness.",
+      "thumbnail": "/images/projects/infinitoon.jpg",
+      "featuredImage": "/images/projects/infinitoon.jpg",
+      "bgColor": "#ECFEFF"
     },
     {
-      "id": "3",
-      "title": "Color Theory for Designers",
-      "excerpt": "Understanding how color choices impact user perception and engagement.",
-      "date": "April 10, 2026",
-      "category": "Design",
-      "image": "/images/projects/elephant.svg"
+      "id": "6",
+      "title": "VemPraKa",
+      "category": "Logo",
+      "client": "MRS Techno",
+      "type": "Web",
+      "languages": ["React", "TypeScript", "JavaScript"],
+      "previewUrl": "https://play.google.com/store/apps/details?id=br.com.marisa.android",
+      "description": "Lojas Marisa is a retail chain that allows you to shop for your favorite products.",
+      "thumbnail": "/images/projects/vempraka.png",
+      "featuredImage": "/images/projects/vempraka.png",
+      "bgColor": "#ECFEFF"
+    },
+    {
+      "id": "7",
+      "title": "LangLoop",
+      "category": "Logo",
+      "client": "Personal Project",
+      "type": "Web",
+      "languages": ["React", "Next.js", "TypeScript", "JavaScript"],
+      "previewUrl": "https://www.langloop.org/",
+      "description": "Lojas Marisa is a retail chain that allows you to shop for your favorite products.",
+      "thumbnail": "/images/projects/langloop.png",
+      "featuredImage": "/images/projects/langloop.png",
+      "bgColor": "#ECFEFF"
+    },
+    {
+      "id": "8",
+      "title": "JoyProject",
+      "category": "Logo",
+      "client": "JoyProject",
+      "type": "Mobile",
+      "languages": ["React", "Next.js", "TypeScript", "JavaScript"],
+      "previewUrl": "https://apps.apple.com/us/app/joyproject/id6468271294",
+      "description": "A faith-based community app designed to help church groups raise funds, organize meal trains, and connect with volunteers",
+      "thumbnail": "/images/projects/joyproject.png",
+      "featuredImage": "/images/projects/joyproject.png",
+      "bgColor": "#ECFEFF"
     }
   ],
   "contact": {
@@ -178,12 +203,12 @@
     "infoCards": [
       {
         "title": "Phone",
-        "values": ["+452 666 386", "+654 764 878"],
+        "values": ["+55 62 99457-4457"],
         "theme": "pink"
       },
       {
         "title": "Email",
-        "values": ["ibthemes@gmail.com", "xyz@abc.com"],
+        "values": ["daniel.sousa.developer@gmail.com"],
         "theme": "blue"
       }
     ]
