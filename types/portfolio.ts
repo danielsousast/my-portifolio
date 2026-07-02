@@ -40,6 +40,14 @@ export interface TimelineEntry {
   subtitle: string;
 }
 
+export type SkillLevel = "beginner" | "intermediate" | "advanced" | "expert";
+
+export interface TechnicalSkill {
+  name: string;
+  icon: string;
+  level: SkillLevel;
+}
+
 export interface Project {
   id: string;
   title: string;
@@ -76,6 +84,7 @@ export interface PortfolioData {
   services: Service[];
   education: TimelineEntry[];
   experience: TimelineEntry[];
+  skills: TechnicalSkill[];
   projectCategories: string[];
   projects: Project[];
   blogs: BlogPost[];

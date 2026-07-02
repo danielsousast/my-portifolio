@@ -6,6 +6,8 @@ export interface UiTranslations {
   resume: string;
   education: string;
   experience: string;
+  technicalSkills: string;
+  skillLevels: Record<"beginner" | "intermediate" | "advanced" | "expert", string>;
   portfolio: string;
   blogs: string;
   contact: string;
@@ -16,6 +18,7 @@ export interface UiTranslations {
     message: string;
     send: string;
     thankYou: string;
+    mailtoSubject: string;
   };
   projectModal: {
     project: string;
@@ -33,6 +36,13 @@ const ui: Record<Locale, UiTranslations> = {
     resume: "Resume",
     education: "Education",
     experience: "Experience",
+    technicalSkills: "Technical Skills",
+    skillLevels: {
+      beginner: "Beginner",
+      intermediate: "Intermediate",
+      advanced: "Advanced",
+      expert: "Expert",
+    },
     portfolio: "Portfolio",
     blogs: "Blogs",
     contact: "Contact",
@@ -43,6 +53,7 @@ const ui: Record<Locale, UiTranslations> = {
       message: "Message",
       send: "Send Message",
       thankYou: "Thank you for your message! I'll get back to you soon.",
+      mailtoSubject: "Portfolio contact from {name}",
     },
     projectModal: {
       project: "Project",
@@ -58,6 +69,13 @@ const ui: Record<Locale, UiTranslations> = {
     resume: "Currículo",
     education: "Educação",
     experience: "Experiência",
+    technicalSkills: "Habilidades Técnicas",
+    skillLevels: {
+      beginner: "Iniciante",
+      intermediate: "Intermediário",
+      advanced: "Avançado",
+      expert: "Especialista",
+    },
     portfolio: "Portfólio",
     blogs: "Blog",
     contact: "Contato",
@@ -68,6 +86,7 @@ const ui: Record<Locale, UiTranslations> = {
       message: "Mensagem",
       send: "Enviar mensagem",
       thankYou: "Obrigado pela mensagem! Retornarei em breve.",
+      mailtoSubject: "Contato do portfólio de {name}",
     },
     projectModal: {
       project: "Projeto",

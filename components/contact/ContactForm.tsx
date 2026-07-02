@@ -5,11 +5,26 @@ import { GradientButton } from "@/components/ui/GradientButton";
 import { useLocale } from "@/providers/LocaleProvider";
 
 export function ContactForm() {
-  const { t } = useLocale();
+  const { t, data } = useLocale();
   const [submitted, setSubmitted] = useState(false);
+
+  const recipientEmail = data.profile.contactDetails.find(
+    (detail) => detail.icon === "email",
+  )?.value;
 
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    if (!recipientEmail) return;
+
+    const formData = new FormData(e.currentTarget);
+    const name = String(formData.get("name") ?? "");
+    const email = String(formData.get("email") ?? "");
+    const message = String(formData.get("message") ?? "");
+
+    const subject = t.form.mailtoSubject.replace("{name}", name);
+    const body = `${t.form.name}: ${name}\n${t.form.email}: ${email}\n\n${message}`;
+
+    window.location.href = `mailto:${recipientEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     setSubmitted(true);
   }
 

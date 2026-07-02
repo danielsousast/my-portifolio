@@ -3,7 +3,7 @@
     "name": "Daniel Sousa",
     "title": "Engenheiro de Software",
     "image": "/images/avatar.jpeg",
-    "cvUrl": "/cv/monalisa-ashley-cv.pdf",
+    "cvUrl": "/cv/daniel-sousa-curriculo.pdf",
     "socials": [
       { "platform": "github", "url": "https://github.com/danielsousast" },
       { "platform": "linkedin", "url": "https://www.linkedin.com/in/danielsousast/" }
@@ -90,6 +90,19 @@
       "title": "Desenvolvedor Mobile",
       "subtitle": "Superlógica Tecnologias"
     }
+  ],
+  "skills": [
+    { "name": "React Native", "icon": "react", "level": "expert" },
+    { "name": "TypeScript", "icon": "typescript", "level": "expert" },
+    { "name": "JavaScript", "icon": "javascript", "level": "expert" },
+    { "name": "React", "icon": "react", "level": "advanced" },
+    { "name": "Next.js", "icon": "nextdotjs", "level": "advanced" },
+    { "name": "Android", "icon": "android", "level": "intermediate" },
+    { "name": "Kotlin", "icon": "kotlin", "level": "intermediate" },
+    { "name": "Node.js", "icon": "nodedotjs", "level": "intermediate" },
+    { "name": "Git", "icon": "git", "level": "advanced" },
+    { "name": "Cursor", "icon": "cursor", "level": "intermediate" },
+    { "name": "Claude Code", "icon": "claude", "level": "intermediate" }
   ],
   "projectCategories": ["Todos", "Mobile", "Web"],
   "projects": [
