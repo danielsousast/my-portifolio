@@ -9,7 +9,7 @@ export function LanguageSwitcher() {
 
   return (
     <div
-      className="flex shrink-0 items-center gap-0.5 rounded-lg bg-gray-100 p-0.5"
+      className="flex shrink-0 items-center gap-0.5 rounded-md border border-ide-border bg-white p-0.5"
       role="group"
       aria-label="Language"
     >
@@ -19,9 +19,9 @@ export function LanguageSwitcher() {
           type="button"
           onClick={() => setLocale(code)}
           className={cn(
-            "rounded-md px-2 py-1 text-[9px] font-semibold transition-colors sm:px-2.5 sm:py-1.5 sm:text-[10px] md:px-3 md:py-2 md:text-xs",
+            "rounded px-2.5 py-1 font-mono text-[10px] font-semibold transition-colors sm:text-xs",
             locale === code
-              ? "gradient-accent text-white shadow-sm"
+              ? "bg-accent text-white"
               : "text-gray-400 hover:text-gray-600",
           )}
           aria-pressed={locale === code}

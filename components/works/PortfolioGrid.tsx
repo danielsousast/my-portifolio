@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { SectionHeading } from "@/components/ui/SectionHeading";
+import { TerminalPrompt } from "@/components/ui/TerminalPrompt";
 import type { Project } from "@/types/portfolio";
 import { useLocale } from "@/providers/LocaleProvider";
 import { CategoryFilter } from "./CategoryFilter";
@@ -34,13 +34,16 @@ export function PortfolioGrid({ categories, projects }: PortfolioGridProps) {
 
   return (
     <>
-      <SectionHeading title={t.portfolio} />
+      <TerminalPrompt command="ls ./works" />
+      <h2 className="mb-6 text-2xl font-bold text-gray-900 md:text-3xl">
+        {t.portfolio}
+      </h2>
       <CategoryFilter
         categories={categories}
         activeCategory={activeCategory}
         onCategoryChange={setActiveCategory}
       />
-      <div className="grid gap-6 sm:grid-cols-2">
+      <div className="grid gap-4 sm:grid-cols-2">
         {filteredProjects.map((project) => (
           <ProjectCard
             key={project.id}

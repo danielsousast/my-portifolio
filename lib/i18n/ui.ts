@@ -12,6 +12,7 @@ export interface UiTranslations {
   blogs: string;
   contact: string;
   downloadCv: string;
+  available: string;
   form: {
     name: string;
     email: string;
@@ -46,7 +47,8 @@ const ui: Record<Locale, UiTranslations> = {
     portfolio: "Portfolio",
     blogs: "Blogs",
     contact: "Contact",
-    downloadCv: "Download CV",
+    downloadCv: "download cv.pdf",
+    available: "available",
     form: {
       name: "Name",
       email: "Email",
@@ -79,7 +81,8 @@ const ui: Record<Locale, UiTranslations> = {
     portfolio: "Portfólio",
     blogs: "Blog",
     contact: "Contato",
-    downloadCv: "Baixar CV",
+    downloadCv: "baixar cv.pdf",
+    available: "disponível",
     form: {
       name: "Nome",
       email: "E-mail",

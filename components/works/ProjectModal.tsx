@@ -20,10 +20,10 @@ interface MetaItemProps {
 
 function MetaItem({ icon, label, value }: MetaItemProps) {
   return (
-    <div className="flex items-start gap-2.5 text-sm text-gray-600">
+    <div className="flex items-start gap-2.5 font-mono text-xs text-gray-600">
       <span className="mt-0.5 shrink-0 text-accent">{icon}</span>
       <span>
-        <strong className="font-semibold text-gray-800">{label} :</strong>{" "}
+        <strong className="font-semibold text-gray-800">{label}:</strong>{" "}
         {value}
       </span>
     </div>
@@ -96,50 +96,55 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
     >
       <div
         className={cn(
-          "relative flex max-h-[92vh] w-full max-w-4xl flex-col overflow-hidden rounded-3xl bg-white shadow-2xl transition-all duration-300 ease-out motion-reduce:transition-none",
+          "relative flex max-h-[92vh] w-full max-w-4xl flex-col overflow-hidden rounded-xl border border-ide-border bg-white shadow-2xl transition-all duration-300 ease-out motion-reduce:transition-none",
           isVisible
             ? "translate-y-0 scale-100 opacity-100"
             : "translate-y-3 scale-[0.97] opacity-0",
         )}
         onClick={(e) => e.stopPropagation()}
       >
-        <button
-          type="button"
-          onClick={handleClose}
-          aria-label={t.projectModal.close}
-          className="absolute right-4 top-4 z-10 flex h-9 w-9 items-center justify-center rounded-full bg-surface-muted text-gray-500 transition-colors hover:bg-surface-slate hover:text-accent"
-        >
-          <X className="h-4 w-4" />
-        </button>
+        <div className="flex items-center justify-between border-b border-ide-border bg-ide-titlebar px-4 py-2">
+          <span className="font-mono text-xs text-gray-500">
+            {displayProject.title.toLowerCase().replace(/\s+/g, "-")}.tsx
+          </span>
+          <button
+            type="button"
+            onClick={handleClose}
+            aria-label={t.projectModal.close}
+            className="flex h-7 w-7 items-center justify-center rounded-md text-gray-500 transition-colors hover:bg-gray-200 hover:text-gray-800"
+          >
+            <X className="h-4 w-4" />
+          </button>
+        </div>
 
-        <div className="shrink-0 px-10 pb-5 pt-10">
+        <div className="shrink-0 px-8 pb-4 pt-6">
           <h2
             id="project-modal-title"
-            className="text-center text-2xl font-bold text-accent md:text-3xl"
+            className="text-center text-xl font-bold text-gray-900 md:text-2xl"
           >
             {displayProject.title}
           </h2>
         </div>
 
-        <div className="flex-1 space-y-6 overflow-y-auto px-10 pb-8">
-          <div className="grid gap-5 sm:grid-cols-2">
+        <div className="flex-1 space-y-5 overflow-y-auto px-8 pb-6">
+          <div className="grid gap-4 sm:grid-cols-2">
             <MetaItem
-              icon={<FolderOpen className="h-4 w-4" />}
+              icon={<FolderOpen className="h-3.5 w-3.5" />}
               label={t.projectModal.project}
               value={displayProject.type}
             />
             <MetaItem
-              icon={<Globe className="h-4 w-4" />}
+              icon={<Globe className="h-3.5 w-3.5" />}
               label={t.projectModal.client}
               value={displayProject.client}
             />
             <MetaItem
-              icon={<Code2 className="h-4 w-4" />}
+              icon={<Code2 className="h-3.5 w-3.5" />}
               label={t.projectModal.languages}
               value={displayProject.languages.join(", ")}
             />
             <MetaItem
-              icon={<ExternalLink className="h-4 w-4" />}
+              icon={<ExternalLink className="h-3.5 w-3.5" />}
               label={t.projectModal.preview}
               value={
                 <a
@@ -154,13 +159,13 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
             />
           </div>
 
-          <p className="text-base leading-relaxed text-gray-600">
+          <p className="text-sm leading-relaxed text-gray-600">
             {displayProject.description}
           </p>
         </div>
 
-        <div className="shrink-0 border-t border-surface-slate bg-surface-muted p-8">
-          <div className="flex aspect-[16/9] items-center justify-center overflow-hidden rounded-2xl bg-white">
+        <div className="shrink-0 border-t border-ide-border bg-surface-muted p-6">
+          <div className="flex aspect-[16/9] items-center justify-center overflow-hidden rounded-lg border border-ide-border bg-white">
             <Image
               src={displayProject.featuredImage}
               alt={displayProject.title}

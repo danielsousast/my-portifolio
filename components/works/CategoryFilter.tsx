@@ -14,20 +14,20 @@ export function CategoryFilter({
   onCategoryChange,
 }: CategoryFilterProps) {
   return (
-    <div className="mb-8 flex flex-wrap gap-4">
+    <div className="mb-8 flex flex-wrap gap-2">
       {categories.map((category) => (
         <button
           key={category}
           type="button"
           onClick={() => onCategoryChange(category)}
           className={cn(
-            "text-sm font-medium transition-colors",
+            "rounded-md border px-3 py-1 font-mono text-xs transition-colors",
             activeCategory === category
-              ? "text-accent"
-              : "text-gray-500 hover:text-gray-800",
+              ? "border-accent bg-teal-50 text-accent"
+              : "border-ide-border bg-white text-gray-500 hover:border-gray-300 hover:text-gray-800",
           )}
         >
-          {category}
+          {category.toLowerCase()}/
         </button>
       ))}
     </div>

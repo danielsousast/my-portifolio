@@ -17,7 +17,7 @@ export function GradientButton({
   type = "button",
 }: GradientButtonProps) {
   const classes = cn(
-    "inline-flex w-full items-center justify-center gap-2 rounded-2xl gradient-accent px-6 py-3.5 text-sm font-semibold text-white shadow-md transition-opacity hover:opacity-90",
+    "inline-flex w-full items-center justify-center gap-2 rounded-lg bg-accent px-6 py-3 font-mono text-sm font-medium text-white transition-colors hover:bg-accent-dark",
     className,
   );
 

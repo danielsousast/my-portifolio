@@ -1,6 +1,6 @@
 "use client";
 
-import { SectionHeading } from "@/components/ui/SectionHeading";
+import { TerminalPrompt } from "@/components/ui/TerminalPrompt";
 import { TimelineSection } from "@/components/resume/TimelineSection";
 import { useLocale } from "@/providers/LocaleProvider";
 
@@ -10,7 +10,10 @@ export default function ResumePage() {
 
   return (
     <>
-      <SectionHeading title={t.resume} />
+      <TerminalPrompt command="cat resume.pdf" />
+      <h2 className="mb-8 text-2xl font-bold text-gray-900 md:text-3xl">
+        {t.resume}
+      </h2>
       <div className="grid gap-8 md:grid-cols-2">
         <TimelineSection
           title={t.experience}

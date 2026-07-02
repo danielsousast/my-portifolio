@@ -6,16 +6,17 @@ interface TimelineCardProps {
 }
 
 export function TimelineCard({ entry, variant }: TimelineCardProps) {
-  const bgColor = variant === "education" ? "#F1F5F9" : "#EFF6FF";
-
   return (
-    <div
-      className="rounded-2xl p-5"
-      style={{ backgroundColor: bgColor }}
-    >
-      <p className="text-xs font-medium text-gray-400">{entry.period}</p>
-      <h3 className="mt-1 text-sm font-bold text-gray-900">{entry.title}</h3>
-      <p className="mt-1 text-xs text-gray-500">{entry.subtitle}</p>
+    <div className="rounded-lg border border-ide-border bg-white p-4 font-mono text-sm">
+      <p className="text-[10px] text-accent">
+        // {variant === "education" ? "degree" : "role"}
+      </p>
+      <p className="mt-1 text-xs text-gray-400">{entry.period}</p>
+      <h3 className="mt-1 font-semibold text-gray-900">{entry.title}</h3>
+      <p className="mt-1 text-xs text-gray-500">
+        <span className="text-gray-400">@ </span>
+        {entry.subtitle}
+      </p>
     </div>
   );
 }

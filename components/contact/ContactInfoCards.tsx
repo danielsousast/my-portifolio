@@ -5,23 +5,20 @@ interface ContactInfoCardsProps {
   cards: ContactInfoCard[];
 }
 
-const themeStyles = {
-  pink: "bg-surface-muted",
-  blue: "bg-surface-blue",
-};
-
 export function ContactInfoCards({ cards }: ContactInfoCardsProps) {
   return (
     <div className="grid gap-4 sm:grid-cols-2">
       {cards.map((card) => (
         <div
           key={card.title}
-          className={cn("rounded-2xl p-6", themeStyles[card.theme])}
+          className="rounded-lg border border-ide-border bg-surface-muted p-4 font-mono text-sm"
         >
-          <h3 className="text-sm font-bold text-gray-900">{card.title} :</h3>
-          <ul className="mt-3 space-y-1">
+          <p className="text-xs text-accent">
+            &quot;{card.title.toLowerCase()}&quot;:
+          </p>
+          <ul className="mt-2 space-y-1 pl-2">
             {card.values.map((value) => (
-              <li key={value} className="text-sm text-gray-600">
+              <li key={value} className="text-gray-700">
                 {value}
               </li>
             ))}

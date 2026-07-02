@@ -19,9 +19,9 @@ export function SocialLinks({ socials }: SocialLinksProps) {
             target="_blank"
             rel="noopener noreferrer"
             aria-label={social.platform}
-            className="flex h-9 w-9 items-center justify-center rounded-full bg-gray-100 text-gray-500 transition-colors hover:bg-accent hover:text-white"
+            className="flex h-8 w-8 items-center justify-center rounded-md border border-ide-border bg-gray-50 text-gray-500 transition-colors hover:border-accent hover:bg-teal-50 hover:text-accent"
           >
-            <Icon className="h-4 w-4" />
+            <Icon className="h-3.5 w-3.5" />
           </a>
         );
       })}

@@ -1,15 +1,22 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f8fafc;
+  --background: #eef1f4;
   --foreground: #0f172a;
-  --accent: #1e40af;
-  --accent-light: #2563eb;
-  --accent-dark: #1e3a5f;
-  --accent-secondary: #0369a1;
+  --accent: #0d9488;
+  --accent-light: #14b8a6;
+  --accent-dark: #0f766e;
+  --accent-secondary: #115e59;
   --surface-muted: #f1f5f9;
-  --surface-blue: #eff6ff;
+  --surface-blue: #f0fdfa;
   --surface-slate: #e2e8f0;
+  --ide-border: #d1d5db;
+  --ide-titlebar: #f3f4f6;
+  --ide-tab-active: #ffffff;
+  --ide-tab-inactive: #e5e7eb;
+  --ide-statusbar: #134e4a;
+  --ide-code-green: #16a34a;
+  --ide-code-comment: #6b7280;
 }
 
 @theme inline {
@@ -22,7 +29,15 @@
   --color-surface-muted: var(--surface-muted);
   --color-surface-blue: var(--surface-blue);
   --color-surface-slate: var(--surface-slate);
+  --color-ide-border: var(--ide-border);
+  --color-ide-titlebar: var(--ide-titlebar);
+  --color-ide-tab-active: var(--ide-tab-active);
+  --color-ide-tab-inactive: var(--ide-tab-inactive);
+  --color-ide-statusbar: var(--ide-statusbar);
+  --color-ide-code-green: var(--ide-code-green);
+  --color-ide-code-comment: var(--ide-code-comment);
   --font-sans: var(--font-poppins), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
 }
 
 html {
@@ -35,10 +50,43 @@ body {
   font-family: var(--font-sans);
 }
 
+.font-mono {
+  font-family: var(--font-mono);
+}
+
 .gradient-accent {
-  background-image: linear-gradient(to right, var(--accent-dark), var(--accent-secondary));
+  background-color: var(--accent);
 }
 
 .gradient-accent-fade {
   background-image: linear-gradient(to right, var(--accent-dark), transparent);
+}
+
+@keyframes blink-cursor {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes pulse-available {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+.animate-blink-cursor {
+  animation: blink-cursor 1s step-end infinite;
+}
+
+.animate-pulse-available {
+  animation: pulse-available 2s ease-in-out infinite;
 }

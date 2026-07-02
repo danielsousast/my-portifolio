@@ -30,16 +30,22 @@ export function ContactForm() {
 
   if (submitted) {
     return (
-      <p className="mt-8 text-center text-sm text-gray-600">
-        {t.form.thankYou}
+      <p className="mt-8 text-center font-mono text-sm text-gray-600">
+        // {t.form.thankYou}
       </p>
     );
   }
 
   return (
-    <form onSubmit={handleSubmit} className="mt-8 space-y-6">
+    <form
+      onSubmit={handleSubmit}
+      className="mt-8 space-y-5 rounded-lg border border-ide-border bg-surface-muted p-5"
+    >
       <div>
-        <label htmlFor="name" className="text-sm font-medium text-gray-700">
+        <label
+          htmlFor="name"
+          className="font-mono text-xs font-medium text-gray-700"
+        >
           {t.form.name} *
         </label>
         <input
@@ -47,11 +53,14 @@ export function ContactForm() {
           name="name"
           type="text"
           required
-          className="mt-1 w-full border-b border-gray-300 bg-transparent py-2 text-sm text-gray-900 outline-none focus:border-accent"
+          className="mt-1 w-full rounded-md border border-ide-border bg-white px-3 py-2 font-mono text-sm text-gray-900 outline-none focus:border-accent"
         />
       </div>
       <div>
-        <label htmlFor="email" className="text-sm font-medium text-gray-700">
+        <label
+          htmlFor="email"
+          className="font-mono text-xs font-medium text-gray-700"
+        >
           {t.form.email} *
         </label>
         <input
@@ -59,13 +68,13 @@ export function ContactForm() {
           name="email"
           type="email"
           required
-          className="mt-1 w-full border-b border-gray-300 bg-transparent py-2 text-sm text-gray-900 outline-none focus:border-accent"
+          className="mt-1 w-full rounded-md border border-ide-border bg-white px-3 py-2 font-mono text-sm text-gray-900 outline-none focus:border-accent"
         />
       </div>
       <div>
         <label
           htmlFor="message"
-          className="text-sm font-medium text-gray-700"
+          className="font-mono text-xs font-medium text-gray-700"
         >
           {t.form.message} *
         </label>
@@ -74,7 +83,7 @@ export function ContactForm() {
           name="message"
           rows={4}
           required
-          className="mt-1 w-full resize-none border-b border-gray-300 bg-transparent py-2 text-sm text-gray-900 outline-none focus:border-accent"
+          className="mt-1 w-full resize-none rounded-md border border-ide-border bg-white px-3 py-2 font-mono text-sm text-gray-900 outline-none focus:border-accent"
         />
       </div>
       <GradientButton type="submit" className="max-w-xs">
