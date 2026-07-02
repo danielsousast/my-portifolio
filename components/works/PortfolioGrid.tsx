@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import type { Project } from "@/types/portfolio";
+import { useLocale } from "@/providers/LocaleProvider";
 import { CategoryFilter } from "./CategoryFilter";
 import { ProjectCard } from "./ProjectCard";
 import { ProjectModal } from "./ProjectModal";
@@ -13,11 +14,17 @@ interface PortfolioGridProps {
 }
 
 export function PortfolioGrid({ categories, projects }: PortfolioGridProps) {
-  const [activeCategory, setActiveCategory] = useState("All");
+  const { t } = useLocale();
+  const allCategory = categories[0];
+  const [activeCategory, setActiveCategory] = useState(allCategory);
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
+  useEffect(() => {
+    setActiveCategory(allCategory);
+  }, [allCategory]);
+
   const filteredProjects =
-    activeCategory === "All"
+    activeCategory === allCategory
       ? projects
       : projects.filter(
           (p) =>
@@ -27,7 +34,7 @@ export function PortfolioGrid({ categories, projects }: PortfolioGridProps) {
 
   return (
     <>
-      <SectionHeading title="Portfolio" />
+      <SectionHeading title={t.portfolio} />
       <CategoryFilter
         categories={categories}
         activeCategory={activeCategory}

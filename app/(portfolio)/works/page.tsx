@@ -1,8 +1,11 @@
+"use client";
+
 import { PortfolioGrid } from "@/components/works/PortfolioGrid";
-import { getPortfolioData } from "@/lib/portfolio-data";
+import { useLocale } from "@/providers/LocaleProvider";
 
 export default function WorksPage() {
-  const { projectCategories, projects } = getPortfolioData();
+  const { data } = useLocale();
+  const { projectCategories, projects } = data;
 
   return (
     <PortfolioGrid categories={projectCategories} projects={projects} />

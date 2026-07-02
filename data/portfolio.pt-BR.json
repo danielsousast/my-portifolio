@@ -1,0 +1,191 @@
+{
+  "profile": {
+    "name": "Daniel Sousa",
+    "title": "Engenheiro de Software",
+    "image": "/images/avatar.jpeg",
+    "cvUrl": "/cv/monalisa-ashley-cv.pdf",
+    "socials": [
+      { "platform": "facebook", "url": "https://facebook.com" },
+      { "platform": "twitter", "url": "https://twitter.com" },
+      { "platform": "dribbble", "url": "https://dribbble.com" },
+      { "platform": "linkedin", "url": "https://www.linkedin.com/in/danielsousast/" }
+    ],
+    "contactDetails": [
+      { "label": "Telefone", "value": "+123 456 7890", "icon": "phone" },
+      { "label": "Localização", "value": "Hong Kong, China", "icon": "location" },
+      { "label": "E-mail", "value": "example@mail.com", "icon": "email" },
+      { "label": "Aniversário", "value": "27 de maio de 1990", "icon": "birthday" }
+    ]
+  },
+  "navigation": [
+    { "label": "Início", "href": "/", "icon": "home" },
+    { "label": "Currículo", "href": "/resume", "icon": "resume" },
+    { "label": "Trabalhos", "href": "/works", "icon": "works" },
+    { "label": "Blog", "href": "/blogs", "icon": "blogs" },
+    { "label": "Contato", "href": "/contact", "icon": "contact" }
+  ],
+  "aboutMe": [
+    "Sou designer de UI/UX baseado em Hong Kong, China. Busco criar aplicações web imersivas e bonitas por meio de código bem elaborado e design centrado no usuário.",
+    "Meu objetivo é sempre construir produtos que ofereçam experiências performáticas e pixel-perfect que encantem os usuários."
+  ],
+  "services": [
+    {
+      "title": "Design UI/UX",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
+      "icon": "design",
+      "bgColor": "#EFF6FF",
+      "iconColor": "#1E40AF"
+    },
+    {
+      "title": "Desenvolvimento de Apps",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
+      "icon": "development",
+      "bgColor": "#F1F5F9",
+      "iconColor": "#475569"
+    },
+    {
+      "title": "Fotografia",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
+      "icon": "photography",
+      "bgColor": "#ECFEFF",
+      "iconColor": "#0E7490"
+    },
+    {
+      "title": "Design Mobile",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
+      "icon": "mobile",
+      "bgColor": "#F0FDF4",
+      "iconColor": "#166534"
+    }
+  ],
+  "education": [
+    {
+      "period": "2021-2023",
+      "title": "Doutorado em Horriblensess",
+      "subtitle": "Universidade ABC, Los Angeles, CA"
+    },
+    {
+      "period": "2019-2021",
+      "title": "Ciência da Computação",
+      "subtitle": "Instituto Técnico Imperialize"
+    },
+    {
+      "period": "2015-2017",
+      "title": "Designer Gráfico",
+      "subtitle": "Academia de Arte de Nova York"
+    }
+  ],
+  "experience": [
+    {
+      "period": "2017-2021",
+      "title": "Ciência da Computação",
+      "subtitle": "Instituto Técnico Imperialize"
+    },
+    {
+      "period": "2015-2017",
+      "title": "Designer Gráfico",
+      "subtitle": "Academia de Arte de Nova York"
+    },
+    {
+      "period": "2013-2015",
+      "title": "Designer UI/UX",
+      "subtitle": "Creative Studio Inc."
+    }
+  ],
+  "projectCategories": ["Todos", "Vídeo", "Web Design", "Logo", "Design Gráfico"],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Chul urina",
+      "category": "UI/UX",
+      "client": "Envato",
+      "type": "Website",
+      "languages": ["Photoshop", "Figma"],
+      "previewUrl": "https://www.envato.com",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      "thumbnail": "/images/projects/astronaut.svg",
+      "featuredImage": "/images/projects/astronaut.svg",
+      "bgColor": "#F1F5F9"
+    },
+    {
+      "id": "2",
+      "title": "Aura Dione",
+      "category": "Web Design",
+      "client": "Agência Criativa",
+      "type": "Website",
+      "languages": ["Figma", "HTML", "CSS"],
+      "previewUrl": "https://example.com",
+      "description": "Um projeto de web design moderno focado em estética limpa e experiência de usuário intuitiva. Construído com atenção aos detalhes e princípios de design responsivo.",
+      "thumbnail": "/images/projects/watermelon.svg",
+      "featuredImage": "/images/projects/watermelon.svg",
+      "bgColor": "#E2E8F0"
+    },
+    {
+      "id": "3",
+      "title": "Projeto UI/UX",
+      "category": "Design Gráfico",
+      "client": "Envato",
+      "type": "Website",
+      "languages": ["Photoshop", "Figma"],
+      "previewUrl": "https://www.envato.com",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "thumbnail": "/images/projects/elephant.svg",
+      "featuredImage": "/images/projects/elephant.svg",
+      "bgColor": "#EFF6FF"
+    },
+    {
+      "id": "4",
+      "title": "Identidade de Marca",
+      "category": "Logo",
+      "client": "Startup Co",
+      "type": "Branding",
+      "languages": ["Illustrator", "Photoshop"],
+      "previewUrl": "https://example.com",
+      "description": "Design completo de identidade de marca incluindo logo, paleta de cores e diretrizes de marca para uma startup de tecnologia.",
+      "thumbnail": "/images/projects/astronaut.svg",
+      "featuredImage": "/images/projects/astronaut.svg",
+      "bgColor": "#ECFEFF"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "title": "O Futuro do Design de UI em 2026",
+      "excerpt": "Explorando tendências emergentes em design de interface e como elas moldam experiências digitais.",
+      "date": "15 de junho de 2026",
+      "category": "Design",
+      "image": "/images/projects/astronaut.svg"
+    },
+    {
+      "id": "2",
+      "title": "Construindo Aplicações Web Acessíveis",
+      "excerpt": "Um guia prático para tornar seus aplicativos web inclusivos para todos os usuários.",
+      "date": "28 de maio de 2026",
+      "category": "Desenvolvimento",
+      "image": "/images/projects/watermelon.svg"
+    },
+    {
+      "id": "3",
+      "title": "Teoria das Cores para Designers",
+      "excerpt": "Entendendo como as escolhas de cores impactam a percepção e o engajamento do usuário.",
+      "date": "10 de abril de 2026",
+      "category": "Design",
+      "image": "/images/projects/elephant.svg"
+    }
+  ],
+  "contact": {
+    "intro": "Estou sempre aberto a discutir trabalhos de design de produto ou parcerias.",
+    "infoCards": [
+      {
+        "title": "Telefone",
+        "values": ["+452 666 386", "+654 764 878"],
+        "theme": "pink"
+      },
+      {
+        "title": "E-mail",
+        "values": ["ibthemes@gmail.com", "xyz@abc.com"],
+        "theme": "blue"
+      }
+    ]
+  }
+}

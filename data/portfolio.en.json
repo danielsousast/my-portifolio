@@ -1,14 +1,14 @@
 {
   "profile": {
-    "name": "Monalisa Ashley",
-    "title": "Ui/Ux Designer",
-    "image": "/images/profile.svg",
+    "name": "Daniel Sousa",
+    "title": "Software Engineer",
+    "image": "/images/avatar.jpeg",
     "cvUrl": "/cv/monalisa-ashley-cv.pdf",
     "socials": [
       { "platform": "facebook", "url": "https://facebook.com" },
       { "platform": "twitter", "url": "https://twitter.com" },
       { "platform": "dribbble", "url": "https://dribbble.com" },
-      { "platform": "linkedin", "url": "https://linkedin.com" }
+      { "platform": "linkedin", "url": "https://www.linkedin.com/in/danielsousast/" }
     ],
     "contactDetails": [
       { "label": "Phone", "value": "+123 456 7890", "icon": "phone" },

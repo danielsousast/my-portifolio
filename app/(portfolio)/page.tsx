@@ -1,9 +1,12 @@
+"use client";
+
 import { AboutSection } from "@/components/home/AboutSection";
 import { ServicesGrid } from "@/components/home/ServicesGrid";
-import { getPortfolioData } from "@/lib/portfolio-data";
+import { useLocale } from "@/providers/LocaleProvider";
 
 export default function HomePage() {
-  const { aboutMe, services } = getPortfolioData();
+  const { data } = useLocale();
+  const { aboutMe, services } = data;
 
   return (
     <>

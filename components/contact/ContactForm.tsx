@@ -2,8 +2,10 @@
 
 import { useState, type FormEvent } from "react";
 import { GradientButton } from "@/components/ui/GradientButton";
+import { useLocale } from "@/providers/LocaleProvider";
 
 export function ContactForm() {
+  const { t } = useLocale();
   const [submitted, setSubmitted] = useState(false);
 
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
@@ -14,7 +16,7 @@ export function ContactForm() {
   if (submitted) {
     return (
       <p className="mt-8 text-center text-sm text-gray-600">
-        Thank you for your message! I&apos;ll get back to you soon.
+        {t.form.thankYou}
       </p>
     );
   }
@@ -23,7 +25,7 @@ export function ContactForm() {
     <form onSubmit={handleSubmit} className="mt-8 space-y-6">
       <div>
         <label htmlFor="name" className="text-sm font-medium text-gray-700">
-          Name *
+          {t.form.name} *
         </label>
         <input
           id="name"
@@ -35,7 +37,7 @@ export function ContactForm() {
       </div>
       <div>
         <label htmlFor="email" className="text-sm font-medium text-gray-700">
-          Email *
+          {t.form.email} *
         </label>
         <input
           id="email"
@@ -50,7 +52,7 @@ export function ContactForm() {
           htmlFor="message"
           className="text-sm font-medium text-gray-700"
         >
-          Message *
+          {t.form.message} *
         </label>
         <textarea
           id="message"
@@ -61,7 +63,7 @@ export function ContactForm() {
         />
       </div>
       <GradientButton type="submit" className="max-w-xs">
-        Send Message
+        {t.form.send}
       </GradientButton>
     </form>
   );

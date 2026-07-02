@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Code2, ExternalLink, FolderOpen, Globe, X } from "lucide-react";
 import { useCallback, useEffect, useState } from "react";
 import type { Project } from "@/types/portfolio";
+import { useLocale } from "@/providers/LocaleProvider";
 import { cn } from "@/lib/utils";
 
 interface ProjectModalProps {
@@ -32,6 +33,7 @@ function MetaItem({ icon, label, value }: MetaItemProps) {
 const ANIMATION_MS = 280;
 
 export function ProjectModal({ project, onClose }: ProjectModalProps) {
+  const { t } = useLocale();
   const [displayProject, setDisplayProject] = useState<Project | null>(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -104,7 +106,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
         <button
           type="button"
           onClick={handleClose}
-          aria-label="Close modal"
+          aria-label={t.projectModal.close}
           className="absolute right-4 top-4 z-10 flex h-9 w-9 items-center justify-center rounded-full bg-surface-muted text-gray-500 transition-colors hover:bg-surface-slate hover:text-accent"
         >
           <X className="h-4 w-4" />
@@ -123,22 +125,22 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
           <div className="grid gap-5 sm:grid-cols-2">
             <MetaItem
               icon={<FolderOpen className="h-4 w-4" />}
-              label="Project"
+              label={t.projectModal.project}
               value={displayProject.type}
             />
             <MetaItem
               icon={<Globe className="h-4 w-4" />}
-              label="Client"
+              label={t.projectModal.client}
               value={displayProject.client}
             />
             <MetaItem
               icon={<Code2 className="h-4 w-4" />}
-              label="Languages"
+              label={t.projectModal.languages}
               value={displayProject.languages.join(", ")}
             />
             <MetaItem
               icon={<ExternalLink className="h-4 w-4" />}
-              label="Preview"
+              label={t.projectModal.preview}
               value={
                 <a
                   href={displayProject.previewUrl}

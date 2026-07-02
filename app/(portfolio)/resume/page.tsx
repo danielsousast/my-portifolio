@@ -1,21 +1,24 @@
+"use client";
+
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { TimelineSection } from "@/components/resume/TimelineSection";
-import { getPortfolioData } from "@/lib/portfolio-data";
+import { useLocale } from "@/providers/LocaleProvider";
 
 export default function ResumePage() {
-  const { education, experience } = getPortfolioData();
+  const { data, t } = useLocale();
+  const { education, experience } = data;
 
   return (
     <>
-      <SectionHeading title="Resume" />
+      <SectionHeading title={t.resume} />
       <div className="grid gap-8 md:grid-cols-2">
         <TimelineSection
-          title="Education"
+          title={t.education}
           entries={education}
           variant="education"
         />
         <TimelineSection
-          title="Experience"
+          title={t.experience}
           entries={experience}
           variant="experience"
         />
