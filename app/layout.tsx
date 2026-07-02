@@ -10,9 +10,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Monalisa Ashley | UI/UX Designer",
+  title: "Daniel Sousa | Software Engineer",
   description:
-    "Portfolio of Monalisa Ashley — UI/UX Designer based in Hong Kong, China.",
+    "Portfolio of Daniel Sousa — Software Engineer based in Goiás, Brazil.",
 };
 
 export default function RootLayout({

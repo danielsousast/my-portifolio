@@ -9,10 +9,10 @@
       { "platform": "linkedin", "url": "https://www.linkedin.com/in/danielsousast/" }
     ],
     "contactDetails": [
-      { "label": "Telefone", "value": "+123 456 7890", "icon": "phone" },
-      { "label": "Localização", "value": "Hong Kong, China", "icon": "location" },
-      { "label": "E-mail", "value": "example@mail.com", "icon": "email" },
-      { "label": "Aniversário", "value": "27 de maio de 1990", "icon": "birthday" }
+      { "label": "Telefone", "value": "+55 62 99457-4457", "icon": "phone" },
+      { "label": "Localização", "value": "GO, Brasil", "icon": "location" },
+      { "label": "E-mail", "value": "daniel.sousa.developer@gmail.com", "icon": "email" },
+      { "label": "Idade", "value": "31", "icon": "birthday" }
     ]
   },
   "navigation": [
@@ -22,34 +22,21 @@
     { "label": "Contato", "href": "/contact", "icon": "contact" }
   ],
   "aboutMe": [
-    "Sou designer de UI/UX baseado em Hong Kong, China. Busco criar aplicações web imersivas e bonitas por meio de código bem elaborado e design centrado no usuário.",
-    "Meu objetivo é sempre construir produtos que ofereçam experiências performáticas e pixel-perfect que encantem os usuários."
+    "Engenheiro Mobile Sênior com mais de 6 anos de experiência construindo aplicações mobile escaláveis e de alta performance usando React Native. Contribuí para produtos com mais de 1 milhão de downloads, entregando experiências excepcionais ao usuário, segurança robusta e arquiteturas sustentáveis em escala.",
+    "Apaixonado por aproveitar IA e princípios de Engenharia Agêntica para acelerar o desenvolvimento de software, integro ativamente ferramentas com IA, fluxos autônomos e automação inteligente no ciclo de engenharia para melhorar produtividade, qualidade de código e velocidade de entrega.",
+    "Experiente em liderar iniciativas mobile do conceito à produção, colaborando com equipes de produto, design e engenharia para construir aplicações confiáveis e centradas no usuário que geram impacto mensurável nos negócios."
   ],
   "services": [
     {
-      "title": "Design UI/UX",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
-      "icon": "design",
-      "bgColor": "#EFF6FF",
-      "iconColor": "#1E40AF"
-    },
-    {
-      "title": "Desenvolvimento de Apps",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
+      "title": "Desenvolvimento Web",
+      "description": "Construção de aplicações web responsivas e fáceis de usar utilizando tecnologias e frameworks modernos.",
       "icon": "development",
       "bgColor": "#F1F5F9",
       "iconColor": "#475569"
     },
     {
-      "title": "Fotografia",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
-      "icon": "photography",
-      "bgColor": "#ECFEFF",
-      "iconColor": "#0E7490"
-    },
-    {
-      "title": "Design Mobile",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
+      "title": "Desenvolvimento Mobile",
+      "description": "Construção de aplicações mobile de alta performance usando React Native e outras tecnologias modernas.",
       "icon": "mobile",
       "bgColor": "#F0FDF4",
       "iconColor": "#166534"
@@ -57,117 +44,158 @@
   ],
   "education": [
     {
-      "period": "2021-2023",
-      "title": "Doutorado em Horriblensess",
-      "subtitle": "Universidade ABC, Los Angeles, CA"
+      "period": "2017-2017",
+      "title": "MBA em Sistemas de Informação",
+      "subtitle": "ESAB"
     },
     {
-      "period": "2019-2021",
-      "title": "Ciência da Computação",
-      "subtitle": "Instituto Técnico Imperialize"
+      "period": "2012-2016",
+      "title": "Bacharelado em Sistemas de Informação",
+      "subtitle": "Universidade Federal de Goiás"
     },
     {
-      "period": "2015-2017",
-      "title": "Designer Gráfico",
-      "subtitle": "Academia de Arte de Nova York"
+      "period": "2014-2014",
+      "title": "Técnico em Informática",
+      "subtitle": "Instituto Monitor"
     }
   ],
   "experience": [
     {
-      "period": "2017-2021",
-      "title": "Ciência da Computação",
-      "subtitle": "Instituto Técnico Imperialize"
+      "period": "Maio de 2025 - atual",
+      "title": "Engenheiro Mobile Sênior",
+      "subtitle": "Thoughtworks"
     },
     {
-      "period": "2015-2017",
-      "title": "Designer Gráfico",
-      "subtitle": "Academia de Arte de Nova York"
+      "period": "Maio de 2024 - Maio de 2015",
+      "title": "Líder Técnico Mobile",
+      "subtitle": "Servicefy"
     },
     {
-      "period": "2013-2015",
-      "title": "Designer UI/UX",
-      "subtitle": "Creative Studio Inc."
+      "period": "Junho de 2024 - Dezembro de 2024",
+      "title": "Engenheiro Mobile Sênior",
+      "subtitle": "BRQ Digital Solutions"
+    },
+    {
+      "period": "Maio de 2022 - Outubro de 2023",
+      "title": "Engenheiro de Software",
+      "subtitle": "More Talent Tech"
+    },
+    {
+      "period": "Abril de 2021 - Abril de 2022",
+      "title": "Professor Adjunto",
+      "subtitle": "Universidade Federal de Goiás"
+    },
+    {
+      "period": "Janeiro de 2020 - Abril de 2021",
+      "title": "Desenvolvedor Mobile",
+      "subtitle": "Superlógica Tecnologias"
     }
   ],
-  "projectCategories": ["Todos", "Vídeo", "Web Design", "Logo", "Design Gráfico"],
+  "projectCategories": ["Todos", "Mobile", "Web"],
   "projects": [
     {
       "id": "1",
-      "title": "Chul urina",
-      "category": "UI/UX",
-      "client": "Envato",
-      "type": "Website",
-      "languages": ["Photoshop", "Figma"],
-      "previewUrl": "https://www.envato.com",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      "thumbnail": "/images/projects/astronaut.svg",
-      "featuredImage": "/images/projects/astronaut.svg",
+      "title": "LatamPass App",
+      "category": "Mobile",
+      "client": "Latam Airlines",
+      "type": "Mobile",
+      "languages": ["React Native", "TypeScript", "JavaScript"],
+      "previewUrl": "https://latampass.latam.com/pt_br/baixe-o-app",
+      "description": "O aplicativo LATAM Pass é a ferramenta do programa de fidelidade LATAM para gerenciar sua conta de milhas diretamente do celular.",
+      "thumbnail": "/images/projects/latampass.png",
+      "featuredImage": "/images/projects/latampass.png",
       "bgColor": "#F1F5F9"
     },
     {
       "id": "2",
-      "title": "Aura Dione",
-      "category": "Web Design",
-      "client": "Agência Criativa",
-      "type": "Website",
-      "languages": ["Figma", "HTML", "CSS"],
-      "previewUrl": "https://example.com",
-      "description": "Um projeto de web design moderno focado em estética limpa e experiência de usuário intuitiva. Construído com atenção aos detalhes e princípios de design responsivo.",
-      "thumbnail": "/images/projects/watermelon.svg",
-      "featuredImage": "/images/projects/watermelon.svg",
+      "title": "Servicefy App",
+      "category": "Web",
+      "client": "Servicefy",
+      "type": "Mobile",
+      "languages": ["React Native", "TypeScript", "JavaScript"],
+      "previewUrl": "https://play.google.com/store/apps/details?id=com.viniengelage.servicefy",
+      "description": "O app Servicefy é uma plataforma moderna de CRM e agendamento voltada para profissionais autônomos e empresas. Ajuda a gerenciar reservas de clientes, processar pagamentos (via PIX e cartão de crédito) e organizar agendas da equipe.",
+      "thumbnail": "/images/projects/servicefy.webp",
+      "featuredImage": "/images/projects/servicefy.webp",
       "bgColor": "#E2E8F0"
     },
     {
       "id": "3",
-      "title": "Projeto UI/UX",
-      "category": "Design Gráfico",
-      "client": "Envato",
-      "type": "Website",
-      "languages": ["Photoshop", "Figma"],
-      "previewUrl": "https://www.envato.com",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "thumbnail": "/images/projects/elephant.svg",
-      "featuredImage": "/images/projects/elephant.svg",
+      "title": "Livelo App",
+      "category": "Mobile",
+      "client": "Livelo",
+      "type": "Mobile",
+      "languages": ["React Native", "TypeScript", "JavaScript"],
+      "previewUrl": "https://play.google.com/store/apps/details?id=br.com.livelo.app",
+      "description": "Livelo é um programa de fidelidade que permite acumular e resgatar pontos por recompensas.",
+      "thumbnail": "/images/projects/livelo.png",
+      "featuredImage": "/images/projects/livelo.png",
       "bgColor": "#EFF6FF"
     },
     {
       "id": "4",
-      "title": "Identidade de Marca",
+      "title": "Lojas Marisa App",
       "category": "Logo",
-      "client": "Startup Co",
-      "type": "Branding",
-      "languages": ["Illustrator", "Photoshop"],
-      "previewUrl": "https://example.com",
-      "description": "Design completo de identidade de marca incluindo logo, paleta de cores e diretrizes de marca para uma startup de tecnologia.",
-      "thumbnail": "/images/projects/astronaut.svg",
-      "featuredImage": "/images/projects/astronaut.svg",
+      "client": "Lojas Marisa",
+      "type": "Mobile",
+      "languages": ["React Native", "TypeScript", "JavaScript"],
+      "previewUrl": "https://play.google.com/store/apps/details?id=br.com.marisa.android",
+      "description": "O app oficial da Marisa permite comprar roupas, acompanhar pedidos, resgatar cupons e gerenciar seu cartão de crédito com facilidade.",
+      "thumbnail": "/images/projects/marisa.png",
+      "featuredImage": "/images/projects/marisa.png",
       "bgColor": "#ECFEFF"
-    }
-  ],
-  "blogs": [
-    {
-      "id": "1",
-      "title": "O Futuro do Design de UI em 2026",
-      "excerpt": "Explorando tendências emergentes em design de interface e como elas moldam experiências digitais.",
-      "date": "15 de junho de 2026",
-      "category": "Design",
-      "image": "/images/projects/astronaut.svg"
     },
     {
-      "id": "2",
-      "title": "Construindo Aplicações Web Acessíveis",
-      "excerpt": "Um guia prático para tornar seus aplicativos web inclusivos para todos os usuários.",
-      "date": "28 de maio de 2026",
-      "category": "Desenvolvimento",
-      "image": "/images/projects/watermelon.svg"
+      "id": "5",
+      "title": "Infinitoon App",
+      "category": "Logo",
+      "client": "Infinitoon",
+      "type": "Mobile",
+      "languages": ["React Native", "TypeScript", "JavaScript"],
+      "previewUrl": "https://play.google.com/store/apps/details?id=com.infinitoon.app",
+      "description": "Infinitoon é uma plataforma brasileira interativa de webcomics e webtoons que une educação e entretenimento.",
+      "thumbnail": "/images/projects/infinitoon.jpg",
+      "featuredImage": "/images/projects/infinitoon.jpg",
+      "bgColor": "#ECFEFF"
     },
     {
-      "id": "3",
-      "title": "Teoria das Cores para Designers",
-      "excerpt": "Entendendo como as escolhas de cores impactam a percepção e o engajamento do usuário.",
-      "date": "10 de abril de 2026",
-      "category": "Design",
-      "image": "/images/projects/elephant.svg"
+      "id": "6",
+      "title": "VemPraKa",
+      "category": "Logo",
+      "client": "MRS Techno",
+      "type": "Web",
+      "languages": ["React", "TypeScript", "JavaScript"],
+      "previewUrl": "https://play.google.com/store/apps/details?id=br.com.marisa.android",
+      "description": "Um aplicativo mobile que permite encontrar os melhores lugares para comer, beber e fazer compras na sua região.",
+      "thumbnail": "/images/projects/vempraka.png",
+      "featuredImage": "/images/projects/vempraka.png",
+      "bgColor": "#ECFEFF"
+    },
+    {
+      "id": "7",
+      "title": "LangLoop",
+      "category": "Logo",
+      "client": "Projeto Pessoal",
+      "type": "Web",
+      "languages": ["React", "Next.js", "TypeScript", "JavaScript"],
+      "previewUrl": "https://www.langloop.org/",
+      "description": "Uma ferramenta de aprendizado de idiomas que ajuda você a aprender criando baralhos de flashcards, salvando frases e deixando o algoritmo SM-2 apresentar cada item no momento certo — para que nada passe despercebido.",
+      "thumbnail": "/images/projects/langloop.png",
+      "featuredImage": "/images/projects/langloop.png",
+      "bgColor": "#ECFEFF"
+    },
+    {
+      "id": "8",
+      "title": "JoyProject",
+      "category": "Logo",
+      "client": "JoyProject",
+      "type": "Mobile",
+      "languages": ["React", "Next.js", "TypeScript", "JavaScript"],
+      "previewUrl": "https://apps.apple.com/us/app/joyproject/id6468271294",
+      "description": "Um aplicativo comunitário baseado na fé, projetado para ajudar grupos de igreja a arrecadar fundos, organizar correntes de refeições e conectar-se com voluntários.",
+      "thumbnail": "/images/projects/joyproject.png",
+      "featuredImage": "/images/projects/joyproject.png",
+      "bgColor": "#ECFEFF"
     }
   ],
   "contact": {
@@ -175,12 +203,12 @@
     "infoCards": [
       {
         "title": "Telefone",
-        "values": ["+452 666 386", "+654 764 878"],
+        "values": ["+55 62 99457-4457"],
         "theme": "pink"
       },
       {
         "title": "E-mail",
-        "values": ["ibthemes@gmail.com", "xyz@abc.com"],
+        "values": ["daniel.sousa.developer@gmail.com"],
         "theme": "blue"
       }
     ]

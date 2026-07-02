@@ -114,7 +114,7 @@
       "type": "Mobile",
       "languages": ["React Native", "TypeScript", "JavaScript"],
       "previewUrl": "https://play.google.com/store/apps/details?id=com.viniengelage.servicefy",
-      "description": "A modern web design project focused on clean aesthetics and intuitive user experience. Built with attention to detail and responsive design principles.",
+      "description": "The Servicefy app is a modern CRM and scheduling platform designed for self-employed professionals and businesses. It helps manage customer bookings, process payments (via PIX and credit card), and organize team schedules",
       "thumbnail": "/images/projects/servicefy.webp",
       "featuredImage": "/images/projects/servicefy.webp",
       "bgColor": "#E2E8F0"
@@ -140,7 +140,7 @@
       "type": "Mobile",
       "languages": ["React Native", "TypeScript", "JavaScript"],
       "previewUrl": "https://play.google.com/store/apps/details?id=br.com.marisa.android",
-      "description": "Lojas Marisa is a retail chain that allows you to shop for your favorite products.",
+      "description": "The official Marisa app allows you to shop for clothes, track orders, redeem coupons and manage your credit card with ease.",
       "thumbnail": "/images/projects/marisa.png",
       "featuredImage": "/images/projects/marisa.png",
       "bgColor": "#ECFEFF"
@@ -153,7 +153,7 @@
       "type": "Mobile",
       "languages": ["React Native", "TypeScript", "JavaScript"],
       "previewUrl": "https://play.google.com/store/apps/details?id=com.infinitoon.app",
-      "description": "Infinitoon is a mobile application that allows you to manage your pet's health and wellness.",
+      "description": "Infinitoon is an interactive Brazilian webcomic and webtoon platform that blends education and entertainment.",
       "thumbnail": "/images/projects/infinitoon.jpg",
       "featuredImage": "/images/projects/infinitoon.jpg",
       "bgColor": "#ECFEFF"
@@ -166,7 +166,7 @@
       "type": "Web",
       "languages": ["React", "TypeScript", "JavaScript"],
       "previewUrl": "https://play.google.com/store/apps/details?id=br.com.marisa.android",
-      "description": "Lojas Marisa is a retail chain that allows you to shop for your favorite products.",
+      "description": "A mobile app that allows you to find the best places to eat, drink, and shop in your area.",
       "thumbnail": "/images/projects/vempraka.png",
       "featuredImage": "/images/projects/vempraka.png",
       "bgColor": "#ECFEFF"
@@ -179,7 +179,7 @@
       "type": "Web",
       "languages": ["React", "Next.js", "TypeScript", "JavaScript"],
       "previewUrl": "https://www.langloop.org/",
-      "description": "Lojas Marisa is a retail chain that allows you to shop for your favorite products.",
+      "description": "A language learning tool that helps you learn languages by creating flashcard decks, save sentences, and let the SM-2 algorithm surface each item at exactly the right moment — so nothing slips through the cracks.",
       "thumbnail": "/images/projects/langloop.png",
       "featuredImage": "/images/projects/langloop.png",
       "bgColor": "#ECFEFF"

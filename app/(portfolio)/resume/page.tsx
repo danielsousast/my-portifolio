@@ -13,14 +13,14 @@ export default function ResumePage() {
       <SectionHeading title={t.resume} />
       <div className="grid gap-8 md:grid-cols-2">
         <TimelineSection
-          title={t.education}
-          entries={education}
-          variant="education"
-        />
-        <TimelineSection
           title={t.experience}
           entries={experience}
           variant="experience"
+        />
+        <TimelineSection
+          title={t.education}
+          entries={education}
+          variant="education"
         />
       </div>
     </>
