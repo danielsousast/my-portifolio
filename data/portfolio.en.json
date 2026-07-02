@@ -122,7 +122,7 @@
     {
       "id": "2",
       "title": "Servicefy App",
-      "category": "Web",
+      "category": "Mobile",
       "client": "Servicefy",
       "type": "Mobile",
       "languages": ["React Native", "TypeScript", "JavaScript"],
@@ -148,7 +148,7 @@
     {
       "id": "4",
       "title": "Lojas Marisa App",
-      "category": "Logo",
+      "category": "Mobile",
       "client": "Lojas Marisa",
       "type": "Mobile",
       "languages": ["React Native", "TypeScript", "JavaScript"],
@@ -161,7 +161,7 @@
     {
       "id": "5",
       "title": "Infinitoon App",
-      "category": "Logo",
+      "category": "Mobile",
       "client": "Infinitoon",
       "type": "Mobile",
       "languages": ["React Native", "TypeScript", "JavaScript"],
@@ -174,7 +174,7 @@
     {
       "id": "6",
       "title": "VemPraKa",
-      "category": "Logo",
+      "category": "Web",
       "client": "MRS Techno",
       "type": "Web",
       "languages": ["React", "TypeScript", "JavaScript"],
@@ -187,7 +187,7 @@
     {
       "id": "7",
       "title": "LangLoop",
-      "category": "Logo",
+      "category": "Web",
       "client": "Personal Project",
       "type": "Web",
       "languages": ["React", "Next.js", "TypeScript", "JavaScript"],
@@ -200,7 +200,7 @@
     {
       "id": "8",
       "title": "JoyProject",
-      "category": "Logo",
+      "category": "Mobile",
       "client": "JoyProject",
       "type": "Mobile",
       "languages": ["React", "Next.js", "TypeScript", "JavaScript"],

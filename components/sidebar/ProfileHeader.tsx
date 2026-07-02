@@ -9,7 +9,7 @@ interface ProfileHeaderProps {
 export function ProfileHeader({ profile }: ProfileHeaderProps) {
   return (
     <div className="flex flex-col items-center text-center">
-      <div className="relative -mt-16 mb-4 overflow-hidden rounded-2xl bg-surface-slate p-1">
+      <div className="relative mb-4 overflow-hidden rounded-2xl bg-surface-slate p-1 md:-mt-16">
         <Image
           src={profile.image}
           alt={profile.name}
